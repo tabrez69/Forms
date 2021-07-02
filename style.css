@@ -1,0 +1,41 @@
+
+    h2{
+        background-color: black;
+        border-radius: 4px;
+        color: white;
+        display: inline-block;
+        text-align: center;
+        margin:  12px 33%;
+    }
+    form{
+        background-color: #5c4141;
+        color: blanchedalmond;
+        display: inline-block;
+       margin:  12px 33%;
+       padding: 12px 12px;
+    }
+    div{
+       
+        display: inline-block;
+        margin: 4px 2px;
+    }
+    input[type='text']{
+        background-color: blanchedalmond;
+        color: brown;
+    }
+    input[type='submit']{
+        background-color: rgb(250, 34, 6);
+        color: rgb(0, 0, 0);
+        
+    }
+    input[type='reset']{
+        background-color: rgb(6, 250, 47);
+        color: rgb(0, 0, 0);
+        
+    }
+    body{
+       
+       background-color: #b1ecbcbf;
+       
+    }
+   

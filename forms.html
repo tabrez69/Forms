@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Forms</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+ <!-- <style>
+    h2{
+        background-color: black;
+        border-radius: 4px;
+        color: white;
+        display: inline-block;
+        text-align: center;
+        margin:  12px 33%;
+    }
+    form{
+        background-color: black;
+        color: blanchedalmond;
+        display: inline-block;
+       margin:  12px 33%;
+       padding: 12px 12px;
+    }
+    div{
+       
+        display: inline-block;
+        margin: 4px 2px;
+    }
+    input[type='text']{
+        background-color: blanchedalmond;
+        color: brown;
+    }
+    input[type='submit']{
+        background-color: rgb(250, 34, 6);
+        color: rgb(0, 0, 0);
+        
+    }
+    input[type='reset']{
+        background-color: rgb(6, 250, 47);
+        color: rgb(0, 0, 0);
+        
+    }
+    body{
+       
+       background-color: rgb(236, 195, 202);
+       
+    }
+   
+</style>  -->
+
+<body>
+    <header><h2>This is  my first HTML forms</h2></header>
+   
+    <form action="backend.php">
+        <label for="name"> Name</label>
+        <div id="name">
+            <input type="text" name="myName" id="name" placeholder="enter your name">
+        </div>
+        <br>
+        <div>
+            Role: <input type="text" name="myRole">
+        </div>
+        <br>
+        <div>
+            Email: <input type="email" name="myEmail">
+        </div>
+
+        <br>
+        <div>
+            Date: <input type="date" name="myDate">
+        </div>
+        <br>
+        <div>
+            Bonus: <input type="number" name="myBonus">
+        </div>
+        <br>
+        <div>
+            Are you eligible?: <input type="checkbox" name="myEligibility" unchecked>
+        </div>
+        <br>
+        <div>
+            Gender: Male <input type="radio" name="myGender"> Female <input type="radio" name="myGender">
+            Other <input type="radio" name="myGender">
+        </div>
+
+        <br>
+        <div id="para">
+            Write about yourself: <br><textarea name="myText" cols="90" rows="10"></textarea>
+        </div>
+
+        <br>
+        <div>
+            <label for="car">Car</label>
+            <select name="myCar" id="car">
+                <option value="ind">Indica</option>
+                <option value="swf" selected>Swift</option>
+            </select>
+        </div>
+        <br>
+
+        <div>
+            <input type="submit" value="Submit Now">
+            <input type="reset" value="Reset Now">
+        </div>
+    </form>
+</body>
+
+</html>
